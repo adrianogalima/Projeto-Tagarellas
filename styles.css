@@ -1,0 +1,146 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+
+.button-header {
+    background: #00A197;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: 2px solid #000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+
+.img-log {
+    width: 568px;
+    height: 568px;
+    margin-left: 125px;
+    display: inline-block;
+    border-radius: 21px;
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 980;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    width: 613px;
+    margin: 0;
+    margin-left: 150px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 71px;
+    color: #515151;
+    width: 800px;
+    margin: 0;
+    margin-left: 70px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-left: 70px;
+}
+
+.contato {
+    background: #00A197;
+    border-radius: 22px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 150px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo-home {
+    margin-right: 200px;
+    border-radius: 21px;
+}
+
+@media (max-width: 900px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header{ 
+        margin: 10% 0 0 10%;
+    }    
+    h1 {
+        font-size: 45px;
+        line-height: 55px;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 35px;
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    p {
+        width: 90%;
+        margin: 10px auto;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .img-log {
+        margin: 20px auto;
+        display: block;
+        max-width: 80%;
+        height: 20%;
+    }
+
+    .contato {
+        width: 80%;
+        margin: 20px auto;
+        font-size: 20px;
+    }
+}
